@@ -40,5 +40,5 @@ public class ItemEntity {
     @OneToMany(mappedBy = "item")
     private List<ItemPurchaseEntity> itemPurchases;
 
-    // Saadullah
+    //Faheem
 }
