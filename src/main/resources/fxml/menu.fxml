@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="rootBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alabtaal.inventory.controller.MenuController">
+   <top>
+       <MenuBar BorderPane.alignment="CENTER">
+           <Menu mnemonicParsing="false" text="File">
+               <MenuItem mnemonicParsing="false" onAction="#onItemMenuItemSelected" text="Item" />
+               <MenuItem mnemonicParsing="false" onAction="#onPage2MenuItemSelected" text="Page 2" />
+               <MenuItem mnemonicParsing="false" onAction="#onPage3MenuItemSelected" text="Page 3" />
+           </Menu>
+         <Menu mnemonicParsing="false" text="Transactions">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#onSaleMenuItemSelected" text="Sale" />
+               <MenuItem mnemonicParsing="false" onAction="#onPurchaseMenuItemSelected" text="Purchase" />
+            </items>
+         </Menu>
+           <Menu mnemonicParsing="false" text="Options">
+               <MenuItem mnemonicParsing="false" onAction="#onCloseMenuItemSelected" text="Close" />
+           </Menu>
+           <Menu mnemonicParsing="false" text="Help">
+              <MenuItem mnemonicParsing="false" onAction="#onHelpMenuItemSelected" text="Help" />
+           </Menu>
+       </MenuBar>
+   </top>
+</BorderPane>

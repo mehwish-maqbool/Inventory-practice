@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="392.0" fitWidth="600.0" layoutY="9.0" opacity="0.81" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../../../Pins/9680666650aff9adfbb8037f279ca7c7.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="177.0" prefHeight="97.0" prefWidth="531.0" text="Welcome to Inventory Application" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
