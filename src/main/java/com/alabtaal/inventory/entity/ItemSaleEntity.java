@@ -32,4 +32,5 @@ public class ItemSaleEntity {
 
     @ManyToOne
     private ItemEntity item;
+    //MEHWISH
 }
